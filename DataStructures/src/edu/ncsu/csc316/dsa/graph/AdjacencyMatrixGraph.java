@@ -53,7 +53,8 @@ public class AdjacencyMatrixGraph<V, E> extends AbstractGraph<V, E> {
     public int numEdges() {
         return edgeList.size();
     }
-
+    
+    
     @Override
     public Iterable<Edge<E>> edges() {
         return edgeList;
